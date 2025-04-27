@@ -1,0 +1,17 @@
+###
+POST http://localhost:5000/general
+Content-Type: application/json
+
+{
+ "url": "*.desoftware.io",
+    "alts": [
+        "desoftware.io"
+    ],
+    "strength": 4096,
+    "pass": "",
+    "organization": "DE Software Technologies LTD",
+    "country": "GB"
+}
+
+###
+GET http://localhost:5000/desoftware
